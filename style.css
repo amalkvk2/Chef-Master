@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@300&display=swap");
+
+@media (min-width: 992px) {
+  .card-title {
+    max-width: 50%;
+  }
+}
+
+.container-fluid {
+  color: white;
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+}
+.navbar a {
+  color: white;
+}
+
+.navbar a:hover {
+  color: rgb(120, 119, 119);
+}
+.navbar img {
+  width: 50px;
+  height: 50px;
+}
+.content h1 {
+  font-weight: 500;
+  font-family: "Zilla Slab", serif;
+}
+.call-btn {
+  border: none;
+  background-color: rgb(6, 96, 134);
+  border-radius: 4px;
+  color: white;
+  font-weight: 400;
+}
+.call-btn:hover {
+  background-color: rgb(9, 69, 95);
+}
+.card img {
+  height: 50px;
+  width: 50px;
+}
+.card {
+  border-radius: 0;
+  border: none;
+  background-color: rgb(250, 250, 250);
+}
+.card-title {
+  font-weight: 500;
+}
+.description {
+  color: black;
+}
+.description h1 {
+  color: rgb(6, 96, 134);
+}
+.food-menu {
+  color: black;
+}
+.menu-heading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.menu-heading img {
+  width: 20px;
+  height: 20px;
+}
+
+.menu-item-head {
+  margin: 0 10px;
+}
+.menu-item-head:hover {
+  cursor: pointer;
+}
+.menu-item img {
+  width: 50px;
+  height: 50px;
+}
+.menu-item {
+  padding: 10px;
+}
+.service-contnets {
+  color: black;
+}
+.service img {
+  width: 50px;
+  height: 50px;
+}
+
+.clinet-head {
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.profile-info img {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+.profile-info span {
+  font-weight: bold;
+}
+.client-card {
+  transition: transform 0.3s;
+  background-color: white;
+  border: 1px solid rgba(127, 126, 126, 0.21);
+}
+.client-card:hover {
+  background-color: rgb(6, 96, 134);
+  cursor: pointer;
+  transform: scale(1.1);
+  color: white;
+}
+.client-card:hover img {
+  background-color: white;
+}
+footer {
+  background-color: rgb(15, 4, 4);
+  color: white;
+  padding: 20px;
+}
+
+footer img {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}
+footer ul {
+  list-style-type: none;
+}
+footer li {
+  padding: 5px 0;
+  cursor: pointer;
+}
+footer li::before {
+  content: "▸";
+  margin-right: 5px;
+}
+.social-media i {
+  cursor: pointer;
+}
+
+.service-card:hover {
+  background-color: rgba(63, 61, 61, 0.639);
+  color: white;
+  border-radius: 5px;
+}
+
+.menu-item {
+  transition: transform 0.3s;
+}
+.menu-item:hover {
+  background-color: rgba(240, 240, 240, 0.555);
+  transform: scale(1.1);
+  padding: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.26);
+}
